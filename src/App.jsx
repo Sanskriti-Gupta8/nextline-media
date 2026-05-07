@@ -14,6 +14,7 @@ const App = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
   const location = useLocation();
 
+  console.log('hello')
   useEffect(() => {
     window.scrollTo({
       top: 0,
