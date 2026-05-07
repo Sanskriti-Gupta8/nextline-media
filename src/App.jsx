@@ -14,7 +14,6 @@ const App = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
   const location = useLocation();
 
-  console.log('hello')
   useEffect(() => {
     window.scrollTo({
       top: 0,
@@ -24,7 +23,7 @@ const App = () => {
 
   return (
     <div className="w-full overflow-x-hidden">
-      {/* <NavBar setSelectedCategory={setSelectedCategory} /> */}
+      <NavBar setSelectedCategory={setSelectedCategory} />
       <div className='min-h-17'></div>
       <Routes>
         <Route path='/' element={<BlogPage selectedCategory={selectedCategory} />} />
