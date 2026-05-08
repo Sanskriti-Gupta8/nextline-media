@@ -122,6 +122,7 @@ const NavBar = ({ setSelectedCategory }) => {
                   </div>
                 </li>
 
+                {/* 
                 <li>
                   <NavLink
                     to="/leaderboard"
@@ -130,6 +131,8 @@ const NavBar = ({ setSelectedCategory }) => {
                     Leaderboard
                   </NavLink>
                 </li>
+                
+                */}
                 <li>
                   <NavLink
                     to="/create"
