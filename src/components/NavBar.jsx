@@ -122,17 +122,7 @@ const NavBar = ({ setSelectedCategory }) => {
                   </div>
                 </li>
 
-                {/* 
-                <li>
-                  <NavLink
-                    to="/leaderboard"
-                    className="px-4 py-2 rounded-md hover:bg-indigo-700/40 transition-all duration-300"
-                  >
-                    Leaderboard
-                  </NavLink>
-                </li>
                 
-                */}
                 <li>
                   <NavLink
                     to="/create"
